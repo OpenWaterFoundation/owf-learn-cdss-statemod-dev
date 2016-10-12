@@ -7,6 +7,8 @@ has been developed to answer important questions about Colorado's water resource
 CDSS efforts are led by the [Colorado Water Conservation Board (CWCB)](http://cwcb.state.co.us)
 and [Colorado Division of Water Resources (DWR)](http://water.state.co.us).
 
+![CDSS Website](images/CDSS-website.png)
+
 One component of CDSS is the StateMod water allocation model,
 which simulates water system operations under Colorado's prior appropriation water right system.
 Because Colorado's water systems are complex, StateMod software and datasets are also complex.
