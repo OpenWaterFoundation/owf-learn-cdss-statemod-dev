@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Learn StateMod (for Software Developers)
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+## Introduction
 
-## Commands
+This documentation is the developer manual for Colorado's Decision Support Systems (CDSS) StateMod Model.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+If you are reading this documentation, you have an interest in learning how StateMod is designed
+and perhaps wish to contribute to its code.
+This documentation is intended to provide sufficient information to streamline support and contributions.
+It is expected that software developers are competant and follow conventions of the open source StateMod project.
 
-## Project layout
+**This documentation is a work in progress and will contain notes for inserts for awhile until time can
+be devoted to filling in blanks.**
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Documentation Organization
+
+The documentation is organized in the order of basic concepts and steps needed to develop StateMod.
