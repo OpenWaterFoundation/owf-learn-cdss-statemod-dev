@@ -16,9 +16,10 @@ pages:
 - StateMod Utilities:  statemod-utilities.md
 - Error Handling and Logging:  error-handling-logging.md
 - Revision Control:  revision-control.md
+- Debugging:  debugging.md
 - Testing:  testing.md
 - Build Process:  build-process.md
-- Documenting Code:  documentation.md
+- Documentation:  documentation.md
 - Adding an Operating Rule:  add-operating-rule.md
 theme: readthedocs
 repo_url:  https://github.com/OpenWaterFoundation/owf-learn-statemod-dev
