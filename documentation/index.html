@@ -161,14 +161,13 @@
             
                 <li class="toctree-l3"><a href="#documentation">Documentation</a></li>
                 
-            
-                <li class="toctree-l3"><a href="#developer-manual">Developer Manual</a></li>
+                    <li><a class="toctree-l4" href="#developer-manual">Developer Manual</a></li>
                 
-            
-                <li class="toctree-l3"><a href="#user-manual">User Manual</a></li>
+                    <li><a class="toctree-l4" href="#user-manual">User Manual</a></li>
                 
-            
-                <li class="toctree-l3"><a href="#code-documentation">Code Documentation</a></li>
+                    <li><a class="toctree-l4" href="#code-documentation">Code Documentation</a></li>
+                
+                    <li><a class="toctree-l4" href="#model-dataset-documentation">Model Dataset Documentation</a></li>
                 
             
             </ul>
@@ -225,25 +224,29 @@ Documentation memorializes the knowledge about the code, software design, and us
 Documentation, when created to describe planned changes, is cheaper than code changes and testing.
 Features without documentation effectively don't exist, and bad documentation is as bad as broken code.</p>
 <p>StateMod documentation is described below.</p>
-<h1 id="developer-manual">Developer Manual</h1>
+<h2 id="developer-manual">Developer Manual</h2>
 <p>You are reading the developer manual.
 This documentation is intended to help StateMod software developers be effective and efficient.</p>
 <p>There are also artifacts written in Word/HTML that need to be evaluated.  Should they continue or merged into this documentation?</p>
-<p>Need to decide if this is maintained with StateMod code or separately.</p>
+<p>Need to decide if this documentation is maintained with StateMod code or separately.</p>
 <p>This developer manual was created using MkDocs, following instructions on the <a href="http://www.mkdocs.org/">MkDocs website</a>.</p>
-<p>The documentation has also been published to a GitHub Pages website:  <a href="http://OpenWaterFoundation.github.io/owf-learn-cdss-statemod-dev">Learn StateMod (for Developers)</a>.</p>
-<h1 id="user-manual">User Manual</h1>
+<p>The documentation has also been published to a GitHub Pages website:  <a href="http://OpenWaterFoundation.github.io/owf-learn-cdss-statemod-dev">Learn StateMod (for Software Developers)</a>.</p>
+<h2 id="user-manual">User Manual</h2>
 <p>The user manual has traditionally been maintained as Word files and saved as Word/PDF/HTML.</p>
 <p>Need to decide whether to continue this or convert to something like this Developer Manual, as a website with navigation.</p>
-<h1 id="code-documentation">Code Documentation</h1>
+<h2 id="code-documentation">Code Documentation</h2>
 <p>The StateMod code has extensive comments.
-However, they are not standardized into a format that can be used to auto-generate API documentation.
+However, they are not standardized into a format that can be used to auto-generate API documentation, for example
+using Doxygen.
 The code comments may need to be updated so that they are more helpful to developers.
 It is not clear if IDEs such as Photran utilize Doxygen or other stylized code comments (for code completion hints, etc.).
 The following are some tools that may be useful.</p>
 <ul>
 <li><a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a> - converts code comments to navigable HTML documentation</li>
 </ul>
+<h2 id="model-dataset-documentation">Model Dataset Documentation</h2>
+<p>There is significant value in model dataset documentation created during modeling projects.
+Such documentation provides implementation examples that can be used for testing and training.</p>
               
             </div>
           </div>

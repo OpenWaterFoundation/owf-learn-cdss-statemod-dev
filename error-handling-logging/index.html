@@ -221,11 +221,11 @@
                 <h1 id="error-handling-and-logging">Error Handling and Logging</h1>
 <p>StateMod, as a Fortran program, does not have extensive error-handling from language perspective.
 However, due to its complexity, many lines of code are devoted to checking input for calculations and handling appropriately.
-Output is to standard output and a log file.</p>
+Logging output is to standard output and a log file.</p>
 <p>The following sections discuss specific topics relevant to error handling and logging.</p>
 <h2 id="error-handling-for-read-and-write-statements">Error Handling for READ and WRITE Statements</h2>
 <p>The code does utilize the <code>ERR=linenumber</code> feature of READ and WRITE statements. 
-This allows an error to trigger jumping to a line in the code, which can output an error message, for example.</p>
+This allows an error to trigger jumping to a line in the code, which can output an error message and take other actions.</p>
 <p>Does not seem to use IOSTAT?</p>
 <h2 id="error-handling-in-code">Error Handling in Code</h2>
 <p>Need to discuss here how that is typically done, such as return status from functions, error counters in subroutines, etc.</p>
@@ -234,11 +234,11 @@ This allows an error to trigger jumping to a line in the code, which can output 
 <h2 id="logging">Logging</h2>
 <p>StateMod will create a log file containing information about progress and errors.
 Need to discuss in detail.  How can this be controlled with command parameters?
-The following are resources that might be useful to include:</p>
+The following are resources that might be useful to consider going forward:</p>
 <ul>
 <li><a href="http://flibs.sourceforge.net/">m_logger, etc.</a> - See "Reporting" libraries</li>
 <li><a href="http://people.sc.fsu.edu/~jburkardt/f_src/xerror/xerror.html">XERROR</a> - existing logging library</li>
-<li><a href="http://www.slf4j.org/">SLF4J Java Logging</a> - might be able to implement in some form</li>
+<li><a href="http://www.slf4j.org/">SLF4J Java Logging</a> - might be able to implement in some parallel form</li>
 </ul>
               
             </div>
