@@ -4,6 +4,11 @@ Testing StateMod can be difficult due to the complexity of the code.
 Simple automated tests are useful to verify basic program functionality, such as input and output.
 However, testing features that model complex systems require running on larger data sets.
 
+Establishing test suites will ensure that future versions, and potentially language conversion can be verified.
+
+Automated testing is a balance between trying to achieve blanket coverage and recognizing that there
+will never be enough resources to implement automated tests for every possible situation.
+
 ## Unit Testing
 
 Unit testing refers to running a small test to exercise a specific logicical unit of code.
@@ -20,7 +25,7 @@ There are not a lot of frameworks available for Fortran unit testing.  The follo
 Functional testing refers to running the program in operational mode, typically on a smaller dataset that
 isolates code that is executed.
 Functional tests are typically automated so that many tests can be run efficiently.
-Functional tests are run on the compiled StateMod program (not in the code).
+Functional tests are run on the compiled StateMod program (tests consist of datasets, not code snippets).
 A testing framework for automated functional tests needs to be implemented, similar to TSTool test features.
 This could be built into StateMod or could be an external program,
 possibly using TSTool with RunProgram, CompareFiles, and CompareTimeSeries commands.

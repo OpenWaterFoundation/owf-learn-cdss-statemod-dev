@@ -1,6 +1,6 @@
 # Configure Development Environment
 
-StateMod development is assumed to occur on Windows, Linux, or Cygwin (can add Mac if have hardware to illustrate).
+StateMod development is assumed to occur on Windows, Linux, or Cygwin (can add Mac if have hardware to test).
 The Fortran code and build environment have in recent years been tested on different operating systems.
 The primary target operting system is Windows because State of Colorado staff and many consultants use Windows.
 However, Linux and Cygwin are supported for users that use those platforms.
