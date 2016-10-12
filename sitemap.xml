@@ -99,6 +99,14 @@
 
     
     <url>
+     <loc>None/debugging/</loc>
+     <lastmod>2016-10-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>None/testing/</loc>
      <lastmod>2016-10-12</lastmod>
      <changefreq>daily</changefreq>
