@@ -5,12 +5,19 @@ Each subroutine is in a separate file and the name of the file matches the subro
 
 Need to describe code modules at a high level:
 
-* Main entry point
+* Main entry point (see: [`statem.for` main program documentation](http://software.openwaterfoundation.org/cdss/statemod/16.00.00/doc-api/statem_8for.html))
 * Input
 * Initialization
 * Calculations
 * Output
 * Clean-up
+
+## StateMod Code API
+
+The StateMod code has been processed with Doxygen software to produce HTML documentation.
+Additional code formatting will occur to enable more complete documentation.
+
+* [StateMod 16.00.00 code documentation](http://software.openwaterfoundation.org/cdss/statemod/16.00.00/doc-api/index.html)
 
 ## Fortran Conventions
 

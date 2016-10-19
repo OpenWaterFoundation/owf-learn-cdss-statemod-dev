@@ -7,7 +7,7 @@ pages:
 - Home: index.md
 - About:  about.md 
 - Introduction and Protocols:  introduction.md
-- Fortran resources: fortran.md
+- Fortran Resources: fortran.md
 - Configure Development Environment:  configure-dev-env.md
 - Code Overview:  code-overview.md
 - Model Input:  model-input.md
