@@ -8,8 +8,20 @@
 # Set --dryrun to test before actually doing
 dryrun=""
 #dryrun="--dryrun"
-
 s3Folder="s3://learn.openwaterfoundation.org/owf-learn-cdss-statemod-dev"
 
+if [ "$1" == "" ]
+        then
+        echo ""
+        echo "Usage:  $0 AmazonConfigProfile"
+        echo ""
+        echo "Copy the site files to the Amazon S3 static website folder:  $s3Folder"
+        echo ""
+        exit 0
+fi
+
+awsProfile="$1"
+
+
 echo "s3 sync ../mkdocs-project/site ${s3Folder} ${dryrun} --recursive --delete --profile owf-steve"
-aws s3 sync ../mkdocs-project/site ${s3Folder} ${dryrun} --delete --profile owf-steve
+aws s3 sync ../mkdocs-project/site ${s3Folder} ${dryrun} --delete --profile "$awsProfile"
