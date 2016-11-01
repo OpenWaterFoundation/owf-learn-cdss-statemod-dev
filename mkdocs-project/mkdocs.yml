@@ -5,7 +5,6 @@
 site_name: Learn StateMod (for Software Developers)
 pages:
 - Home: index.md
-- About:  about.md 
 - Introduction and Protocols:  introduction.md
 - Fortran Resources: fortran.md
 - Configure Development Environment:  configure-dev-env.md
@@ -22,7 +21,7 @@ pages:
 - Documentation:  documentation.md
 - Adding an Operating Rule:  add-operating-rule.md
 theme: readthedocs
-repo_url:  https://github.com/OpenWaterFoundation/owf-learn-statemod-dev
+repo_url:  https://github.com/OpenWaterFoundation/owf-learn-cdss-statemod-dev
 site_description:  Colorado's Decision Support Systems StateMod model developer documentation
 site_author:  Open Water Foundation
 site_favicon:  StateMod-favicon.png
