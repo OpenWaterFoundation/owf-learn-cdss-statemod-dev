@@ -1,388 +1,373 @@
 {
     "docs": [
         {
-            "location": "/",
-            "text": "Learn StateMod (for Software Developers)\n\n\nIntroduction\n\n\nThis documentation is the developer manual for Colorado's Decision Support Systems (CDSS) StateMod Model.\n\n\nIf you are reading this documentation, you have an interest in learning how StateMod is designed\nand perhaps wish to contribute software code enhancements or otherwise provide input to the project.\nThis documentation is intended to provide sufficient information to software developers\nto streamline understanding of the StateMod code and developer environment.\nIt is expected that software developers are technically competant and\nfollow conventions of the open source StateMod project.\n\n\nThis documentation is a work in progress and will contain notes for inserts until resources can\nbe devoted to filling in blanks.\n\n\nDocumentation Organization\n\n\nThe documentation is organized in the order of basic concepts and then topics relevant to develop StateMod.",
+            "location": "/", 
+            "text": "Learn StateMod (for Software Developers)\n\n\nThis documentation is the developer manual for Colorado's Decision Support Systems (CDSS) StateMod water allocation model software.\n\n\nIf you are reading this documentation, you have an interest in learning how StateMod is designed\nand perhaps wish to contribute software code enhancements or otherwise provide input to the project.\nThis documentation is intended to provide sufficient information to software developers\nto streamline understanding of the StateMod code and developer environment.\nIt is expected that software developers are technically competant and\nfollow conventions of the open source StateMod project.\n\n\nThis documentation is a work in progress and will contain notes for inserts until resources can\nbe devoted to filling in blanks.\n\n\nColorado's Decision Support Systems\n\n\nColorado's Decision Support Systems (\nCDSS, cdss.state.co.us\n)\nhas been developed to answer important questions about Colorado's water resources.\nCDSS efforts are led by the \nColorado Water Conservation Board (CWCB)\n\nand \nColorado Division of Water Resources (DWR)\n.\n\n\n\n\nOne component of CDSS is the StateMod water allocation model,\nwhich simulates water system operations under Colorado's prior appropriation water right system.\nBecause Colorado's water systems are complex, StateMod software and datasets are also complex.\n\n\nIn late 2016, the Open Water Foundation began the effort to move StateMod and other CDSS software to open source licensing\nand establish open source software projects, and this documentation is one project outcome.\n\n\nOpen Water Foundation\n\n\nThe Open Water Foundation (OWF, \nopenwaterfoundation.org\n) is a 501(c)3 social enterprise\nnonprofit that focuses on developing and supporting open source software to make better\ndecisions about water resources.  OWF is providing technical resources and management to\ntransition StateMod and other CDSS software to a sustainable open source project.\n\n\nOWF has created this website as a prototype to facilitate helping people understand StateMod development issues\nas the software moves to open source licensing.\n\n\nSee also other \nOWF learning resources\n.\n\n\nHow to Use this Documentation\n\n\nThe documentation is organized in the order of basic concepts and then topics relevant to developing and supporting StateMod.\n\n\nThis website is intended as a companion to the StateMod source code repository and is the source of\ninformation for software developers that support and enhance StateMod.\n\n\nLicense\n\n\nThe license for this documentation is being determined in the CDSS open source project.\nMore information will be provided later.\n\n\nSource Repository on GitHub\n\n\nThe source files for this documentation are maintained in a GitHub repository: \nowf-learn-cdss-statemod-dev\n.\n\n\nThe GitHub Pages URL for the project is: \nLearn StateMod (for Software Developers)\n.\n\n\nMkDocs\n\n\nThis documentation is prepared using MkDocs.\nFor full MkDocs documentation visit \nmkdocs.org\n.", 
             "title": "Home"
-        },
+        }, 
         {
-            "location": "/#learn-statemod-for-software-developers",
-            "text": "",
+            "location": "/#learn-statemod-for-software-developers", 
+            "text": "This documentation is the developer manual for Colorado's Decision Support Systems (CDSS) StateMod water allocation model software.  If you are reading this documentation, you have an interest in learning how StateMod is designed\nand perhaps wish to contribute software code enhancements or otherwise provide input to the project.\nThis documentation is intended to provide sufficient information to software developers\nto streamline understanding of the StateMod code and developer environment.\nIt is expected that software developers are technically competant and\nfollow conventions of the open source StateMod project.  This documentation is a work in progress and will contain notes for inserts until resources can\nbe devoted to filling in blanks.", 
             "title": "Learn StateMod (for Software Developers)"
-        },
+        }, 
         {
-            "location": "/#introduction",
-            "text": "This documentation is the developer manual for Colorado's Decision Support Systems (CDSS) StateMod Model.  If you are reading this documentation, you have an interest in learning how StateMod is designed\nand perhaps wish to contribute software code enhancements or otherwise provide input to the project.\nThis documentation is intended to provide sufficient information to software developers\nto streamline understanding of the StateMod code and developer environment.\nIt is expected that software developers are technically competant and\nfollow conventions of the open source StateMod project.  This documentation is a work in progress and will contain notes for inserts until resources can\nbe devoted to filling in blanks.",
-            "title": "Introduction"
-        },
+            "location": "/#colorados-decision-support-systems", 
+            "text": "Colorado's Decision Support Systems ( CDSS, cdss.state.co.us )\nhas been developed to answer important questions about Colorado's water resources.\nCDSS efforts are led by the  Colorado Water Conservation Board (CWCB) \nand  Colorado Division of Water Resources (DWR) .   One component of CDSS is the StateMod water allocation model,\nwhich simulates water system operations under Colorado's prior appropriation water right system.\nBecause Colorado's water systems are complex, StateMod software and datasets are also complex.  In late 2016, the Open Water Foundation began the effort to move StateMod and other CDSS software to open source licensing\nand establish open source software projects, and this documentation is one project outcome.", 
+            "title": "Colorado's Decision Support Systems"
+        }, 
         {
-            "location": "/#documentation-organization",
-            "text": "The documentation is organized in the order of basic concepts and then topics relevant to develop StateMod.",
-            "title": "Documentation Organization"
-        },
-        {
-            "location": "/about/",
-            "text": "About\n\n\nColorado's Decision Support System\n\n\nColorado's Decision Support System (\nCDSS, cdss.state.co.us\n)\nhas been developed to answer important questions about Colorado's water resources.\nCDSS efforts are led by the \nColorado Water Conservation Board (CWCB)\n\nand \nColorado Division of Water Resources (DWR)\n.\n\n\n\n\nOne component of CDSS is the StateMod water allocation model,\nwhich simulates water system operations under Colorado's prior appropriation water right system.\nBecause Colorado's water systems are complex, StateMod software and datasets are also complex.\n\n\nIn late 2016, the Open Water Foundation began the effort to move StateMod and other CDSS software to open source licensing\nand establish open source software projects, and this documentation is one project outcome.\n\n\nOpen Water Foundation\n\n\nThe Open Water Foundation (OWF, \nopenwaterfoundation.org\n) is a social enterprise\n501(c)3 nonprofit that focuses on developing and supporting open source software to make better\ndecisions about water resources.  OWF is providing technical resources and management to\ntransition StateMod and other CDSS software to a sustainable open source project.\n\n\nOWF has created this website as a prototype to facilitate helping people understand StateMod development issues\nas the software moves to open source licensing.\n\n\nLearn StateMod (for Software Developers)\n\n\nThis website is intended as a companion to the StateMod source code repository and is the source of\ninformation for software developers that support and enhance StateMod.\n\n\nLicense\n\n\nThe license for this documentation is being determined in the CDSS open source project.\nMore information will be provided later.\n\n\nSource Repository on GitHub\n\n\nThe source files for this documentation are maintained in a GitHub repository: \nowf-learn-cdss-statemod-dev\n.\n\n\nThe GitHub Pages URL for the project is: \nLearn StateMod (for Software Developers)\n.\n\n\nMkDocs\n\n\nThis documentation is prepared using MkDocs.\nFor full MkDocs documentation visit \nmkdocs.org\n.",
-            "title": "About"
-        },
-        {
-            "location": "/about/#about",
-            "text": "",
-            "title": "About"
-        },
-        {
-            "location": "/about/#colorados-decision-support-system",
-            "text": "Colorado's Decision Support System ( CDSS, cdss.state.co.us )\nhas been developed to answer important questions about Colorado's water resources.\nCDSS efforts are led by the  Colorado Water Conservation Board (CWCB) \nand  Colorado Division of Water Resources (DWR) .   One component of CDSS is the StateMod water allocation model,\nwhich simulates water system operations under Colorado's prior appropriation water right system.\nBecause Colorado's water systems are complex, StateMod software and datasets are also complex.  In late 2016, the Open Water Foundation began the effort to move StateMod and other CDSS software to open source licensing\nand establish open source software projects, and this documentation is one project outcome.",
-            "title": "Colorado's Decision Support System"
-        },
-        {
-            "location": "/about/#open-water-foundation",
-            "text": "The Open Water Foundation (OWF,  openwaterfoundation.org ) is a social enterprise\n501(c)3 nonprofit that focuses on developing and supporting open source software to make better\ndecisions about water resources.  OWF is providing technical resources and management to\ntransition StateMod and other CDSS software to a sustainable open source project.  OWF has created this website as a prototype to facilitate helping people understand StateMod development issues\nas the software moves to open source licensing.",
+            "location": "/#open-water-foundation", 
+            "text": "The Open Water Foundation (OWF,  openwaterfoundation.org ) is a 501(c)3 social enterprise\nnonprofit that focuses on developing and supporting open source software to make better\ndecisions about water resources.  OWF is providing technical resources and management to\ntransition StateMod and other CDSS software to a sustainable open source project.  OWF has created this website as a prototype to facilitate helping people understand StateMod development issues\nas the software moves to open source licensing.  See also other  OWF learning resources .", 
             "title": "Open Water Foundation"
-        },
+        }, 
         {
-            "location": "/about/#learn-statemod-for-software-developers",
-            "text": "This website is intended as a companion to the StateMod source code repository and is the source of\ninformation for software developers that support and enhance StateMod.",
-            "title": "Learn StateMod (for Software Developers)"
-        },
+            "location": "/#how-to-use-this-documentation", 
+            "text": "The documentation is organized in the order of basic concepts and then topics relevant to developing and supporting StateMod.  This website is intended as a companion to the StateMod source code repository and is the source of\ninformation for software developers that support and enhance StateMod.", 
+            "title": "How to Use this Documentation"
+        }, 
         {
-            "location": "/about/#license",
-            "text": "The license for this documentation is being determined in the CDSS open source project.\nMore information will be provided later.",
+            "location": "/#license", 
+            "text": "The license for this documentation is being determined in the CDSS open source project.\nMore information will be provided later.", 
             "title": "License"
-        },
+        }, 
         {
-            "location": "/about/#source-repository-on-github",
-            "text": "The source files for this documentation are maintained in a GitHub repository:  owf-learn-cdss-statemod-dev .  The GitHub Pages URL for the project is:  Learn StateMod (for Software Developers) .",
+            "location": "/#source-repository-on-github", 
+            "text": "The source files for this documentation are maintained in a GitHub repository:  owf-learn-cdss-statemod-dev .  The GitHub Pages URL for the project is:  Learn StateMod (for Software Developers) .", 
             "title": "Source Repository on GitHub"
-        },
+        }, 
         {
-            "location": "/about/#mkdocs",
-            "text": "This documentation is prepared using MkDocs.\nFor full MkDocs documentation visit  mkdocs.org .",
+            "location": "/#mkdocs", 
+            "text": "This documentation is prepared using MkDocs.\nFor full MkDocs documentation visit  mkdocs.org .", 
             "title": "MkDocs"
-        },
+        }, 
         {
-            "location": "/introduction/",
-            "text": "Introduction\n\n\nThis documentation provides a comprehensive guide to setting up a development environment for StateMod,\nand using that environment to perform software development tasks, such as coding, revision control, documenting,\ncompiling, testing, building, and deploying software releases.\n\n\nThis documentation is intended for use by StateMod software developers (and those interested in contributing).\nHowever, efforts have been taken to make the documentation understandable to a wider audience including\nwater resources engineers and managers,\nso that they can engage in the discussion of how to use nd supporting StateMod and other CDSS software.  Goals of the\ndocumentation include:\n\n\n\n\nDescribe how the development environment was initialized, to document initial decisions\n\n\nDescribe how to configure the development environment for a new developer\n\n\nProvide background information about the StateMod code design\n\n\nDescribe how common development tasks are performed, in a generic sense (compiling, testing, etc.)\n\n\nProvide specific examples for common code enhancements, such as adding/enhancing an operating rule\n\n\nHelp ensure a healthy and sustainable open source software project by implementing best practices\n\n\nFacilitate engagement of a larger developer community by providing useful information\n\n\n\n\nHistory and Background\n\n\nStateMod was derived from the BESTSM model originally developed by Boyle Engineering (now AECOM),\nwith significant development as part of the Colorado River Decision Support System (CRDSS).\nThe model is written in Fortran, with original development using the Lahey compiler.\nThe code has recently been updated to compile using the open source \ngfortran\n compiler\nand executables have been created for Linux in addition to Windows.\nA small number of developers have traditionally contributed to StateMod.\n\n\nCan add more relevant history here.\n\n\nOpen Source Project Overview\n\n\nThe CDSS open source project is transitioning StateMod from a legacy development environment to\nan open source software project using best practices.  A GitHub repository is being implemented with a\nstructure that facilitates development using open source compiler and developer environment.\nThis repository is currently private but will be made publicly available once initial\ndeveloper environment and licensing are in place.\n\n\nThe plan is that a core group of developers will lead the open source project and\nenhancements and other code contributions will be funded through various projects that need the enhancements.\nThe developer community will therefore grow as more information is made available and there\nare opportunities to contribute bug fixes and enhancements.\nOne or more lead developers will be identified and play an important role in maintenance, enhancements, and quality control.\nThis documentation is a key element of growing the developer community.\n\n\nQuestions about the open source project can be directed to:\n\n\n\n\nAndy Moore, andy.moore@state.co.us (CWCB Project Manager)\n\n\nSteve Malers, steve.malers@openwaterfoundation.org (Open Water Foundation Project Manager)\n\n\n\n\nOpen Source Project Protocols\n\n\nNeed to insert here the specific protocols for the project, based on those established by the open source project.",
+            "location": "/introduction/", 
+            "text": "Introduction\n\n\nThis documentation provides a comprehensive guide to setting up a development environment for StateMod,\nand using that environment to perform software development tasks, such as coding, revision control, documenting,\ncompiling, testing, building, and deploying software releases.\n\n\nThis documentation is intended for use by StateMod software developers (and those interested in contributing).\nHowever, efforts have been taken to make the documentation understandable to a wider audience including\nwater resources engineers and managers,\nso that they can engage in the discussion of how to use nd supporting StateMod and other CDSS software.  Goals of the\ndocumentation include:\n\n\n\n\nDescribe how the development environment was initialized, to document initial decisions\n\n\nDescribe how to configure the development environment for a new developer\n\n\nProvide background information about the StateMod code design\n\n\nDescribe how common development tasks are performed, in a generic sense (compiling, testing, etc.)\n\n\nProvide specific examples for common code enhancements, such as adding/enhancing an operating rule\n\n\nHelp ensure a healthy and sustainable open source software project by implementing best practices\n\n\nFacilitate engagement of a larger developer community by providing useful information\n\n\n\n\nHistory and Background\n\n\nStateMod was derived from the BESTSM model originally developed by Boyle Engineering (now AECOM),\nwith significant development as part of the Colorado River Decision Support System (CRDSS).\nThe model is written in Fortran, with original development using the Lahey compiler.\nThe code has recently been updated to compile using the open source \ngfortran\n compiler\nand executables have been created for Linux in addition to Windows.\nA small number of developers have traditionally contributed to StateMod.\n\n\nCan add more relevant history here.\n\n\nOpen Source Project Overview\n\n\nThe CDSS open source project is transitioning StateMod from a legacy development environment to\nan open source software project using best practices.  A GitHub repository is being implemented with a\nstructure that facilitates development using open source compiler and developer environment.\nThis repository is currently private but will be made publicly available once initial\ndeveloper environment and licensing are in place.\n\n\nThe plan is that a core group of developers will lead the open source project and\nenhancements and other code contributions will be funded through various projects that need the enhancements.\nThe developer community will therefore grow as more information is made available and there\nare opportunities to contribute bug fixes and enhancements.\nOne or more lead developers will be identified and play an important role in maintenance, enhancements, and quality control.\nThis documentation is a key element of growing the developer community.\n\n\nQuestions about the open source project can be directed to:\n\n\n\n\nAndy Moore, andy.moore@state.co.us (CWCB Project Manager)\n\n\nSteve Malers, steve.malers@openwaterfoundation.org (Open Water Foundation Project Manager)\n\n\n\n\nOpen Source Project Protocols\n\n\nNeed to insert here the specific protocols for the project, based on those established by the open source project.", 
             "title": "Introduction and Protocols"
-        },
+        }, 
         {
-            "location": "/introduction/#introduction",
-            "text": "This documentation provides a comprehensive guide to setting up a development environment for StateMod,\nand using that environment to perform software development tasks, such as coding, revision control, documenting,\ncompiling, testing, building, and deploying software releases.  This documentation is intended for use by StateMod software developers (and those interested in contributing).\nHowever, efforts have been taken to make the documentation understandable to a wider audience including\nwater resources engineers and managers,\nso that they can engage in the discussion of how to use nd supporting StateMod and other CDSS software.  Goals of the\ndocumentation include:   Describe how the development environment was initialized, to document initial decisions  Describe how to configure the development environment for a new developer  Provide background information about the StateMod code design  Describe how common development tasks are performed, in a generic sense (compiling, testing, etc.)  Provide specific examples for common code enhancements, such as adding/enhancing an operating rule  Help ensure a healthy and sustainable open source software project by implementing best practices  Facilitate engagement of a larger developer community by providing useful information",
+            "location": "/introduction/#introduction", 
+            "text": "This documentation provides a comprehensive guide to setting up a development environment for StateMod,\nand using that environment to perform software development tasks, such as coding, revision control, documenting,\ncompiling, testing, building, and deploying software releases.  This documentation is intended for use by StateMod software developers (and those interested in contributing).\nHowever, efforts have been taken to make the documentation understandable to a wider audience including\nwater resources engineers and managers,\nso that they can engage in the discussion of how to use nd supporting StateMod and other CDSS software.  Goals of the\ndocumentation include:   Describe how the development environment was initialized, to document initial decisions  Describe how to configure the development environment for a new developer  Provide background information about the StateMod code design  Describe how common development tasks are performed, in a generic sense (compiling, testing, etc.)  Provide specific examples for common code enhancements, such as adding/enhancing an operating rule  Help ensure a healthy and sustainable open source software project by implementing best practices  Facilitate engagement of a larger developer community by providing useful information", 
             "title": "Introduction"
-        },
+        }, 
         {
-            "location": "/introduction/#history-and-background",
-            "text": "StateMod was derived from the BESTSM model originally developed by Boyle Engineering (now AECOM),\nwith significant development as part of the Colorado River Decision Support System (CRDSS).\nThe model is written in Fortran, with original development using the Lahey compiler.\nThe code has recently been updated to compile using the open source  gfortran  compiler\nand executables have been created for Linux in addition to Windows.\nA small number of developers have traditionally contributed to StateMod.  Can add more relevant history here.",
+            "location": "/introduction/#history-and-background", 
+            "text": "StateMod was derived from the BESTSM model originally developed by Boyle Engineering (now AECOM),\nwith significant development as part of the Colorado River Decision Support System (CRDSS).\nThe model is written in Fortran, with original development using the Lahey compiler.\nThe code has recently been updated to compile using the open source  gfortran  compiler\nand executables have been created for Linux in addition to Windows.\nA small number of developers have traditionally contributed to StateMod.  Can add more relevant history here.", 
             "title": "History and Background"
-        },
+        }, 
         {
-            "location": "/introduction/#open-source-project-overview",
-            "text": "The CDSS open source project is transitioning StateMod from a legacy development environment to\nan open source software project using best practices.  A GitHub repository is being implemented with a\nstructure that facilitates development using open source compiler and developer environment.\nThis repository is currently private but will be made publicly available once initial\ndeveloper environment and licensing are in place.  The plan is that a core group of developers will lead the open source project and\nenhancements and other code contributions will be funded through various projects that need the enhancements.\nThe developer community will therefore grow as more information is made available and there\nare opportunities to contribute bug fixes and enhancements.\nOne or more lead developers will be identified and play an important role in maintenance, enhancements, and quality control.\nThis documentation is a key element of growing the developer community.  Questions about the open source project can be directed to:   Andy Moore, andy.moore@state.co.us (CWCB Project Manager)  Steve Malers, steve.malers@openwaterfoundation.org (Open Water Foundation Project Manager)",
+            "location": "/introduction/#open-source-project-overview", 
+            "text": "The CDSS open source project is transitioning StateMod from a legacy development environment to\nan open source software project using best practices.  A GitHub repository is being implemented with a\nstructure that facilitates development using open source compiler and developer environment.\nThis repository is currently private but will be made publicly available once initial\ndeveloper environment and licensing are in place.  The plan is that a core group of developers will lead the open source project and\nenhancements and other code contributions will be funded through various projects that need the enhancements.\nThe developer community will therefore grow as more information is made available and there\nare opportunities to contribute bug fixes and enhancements.\nOne or more lead developers will be identified and play an important role in maintenance, enhancements, and quality control.\nThis documentation is a key element of growing the developer community.  Questions about the open source project can be directed to:   Andy Moore, andy.moore@state.co.us (CWCB Project Manager)  Steve Malers, steve.malers@openwaterfoundation.org (Open Water Foundation Project Manager)", 
             "title": "Open Source Project Overview"
-        },
+        }, 
         {
-            "location": "/introduction/#open-source-project-protocols",
-            "text": "Need to insert here the specific protocols for the project, based on those established by the open source project.",
+            "location": "/introduction/#open-source-project-protocols", 
+            "text": "Need to insert here the specific protocols for the project, based on those established by the open source project.", 
             "title": "Open Source Project Protocols"
-        },
+        }, 
         {
-            "location": "/fortran/",
-            "text": "Fortran Resources\n\n\nThe following are Fortran resources that may be useful to StateMod developers.\n\n\n\n\nFortran Best Practices\n\n\ngfortran documentation\n\n\nPhotran Integrated Development Environment\n\n\n\n\nAdd more references as appropriate.",
-            "title": "Fortran resources"
-        },
-        {
-            "location": "/fortran/#fortran-resources",
-            "text": "The following are Fortran resources that may be useful to StateMod developers.   Fortran Best Practices  gfortran documentation  Photran Integrated Development Environment   Add more references as appropriate.",
+            "location": "/fortran/", 
+            "text": "Fortran Resources\n\n\nThe following are Fortran resources that may be useful to StateMod developers.\n\n\n\n\nFortran Best Practices\n\n\ngfortran documentation\n\n\nPhotran Integrated Development Environment\n\n\n\n\nAdd more references as appropriate.", 
             "title": "Fortran Resources"
-        },
+        }, 
         {
-            "location": "/configure-dev-env/",
-            "text": "Configure Development Environment\n\n\nStateMod development is assumed to occur on Windows, Linux, or Cygwin (can add Mac if have hardware to test).\nThe Fortran code and build environment have in recent years been tested on different operating systems.\nThe primary target operting system is Windows because State of Colorado staff and many consultants use Windows.\nHowever, Linux and Cygwin are supported for users that use those platforms.\n\n\nThe following sections describe setup of the development environment for different operating systems.\nNeed to include:\n\n\n\n\nCompiler, 32-bit, 64-bit discussion\n\n\nIDE, e.g., Eclipse, editor, etc.\n\n\nAdditional build tools (make, etc.)\n\n\nDocumentation API generator such as Doxygen, MkDocs\n\n\nRevision control tools (Git)\n\n\n\n\nWindows\n\n\nDescribe installation of gfortran, Eclipse photran, Doxygen, etc.\n\n\nLinux\n\n\nDescribe, may be similar to Windows.\n\n\nCygwin\n\n\nDescribe,\n\n\nGitHub Repository\n\n\nProvide URL to GitHub repository.",
+            "location": "/fortran/#fortran-resources", 
+            "text": "The following are Fortran resources that may be useful to StateMod developers.   Fortran Best Practices  gfortran documentation  Photran Integrated Development Environment   Add more references as appropriate.", 
+            "title": "Fortran Resources"
+        }, 
+        {
+            "location": "/configure-dev-env/", 
+            "text": "Configure Development Environment\n\n\nStateMod development is assumed to occur on Windows, Linux, or Cygwin (can add Mac if have hardware to test).\nThe Fortran code and build environment have in recent years been tested on different operating systems.\nThe primary target operting system is Windows because State of Colorado staff and many consultants use Windows.\nHowever, Linux and Cygwin are supported for users that use those platforms.\n\n\nThe following sections describe setup of the development environment for different operating systems.\nNeed to include:\n\n\n\n\nCompiler, 32-bit, 64-bit discussion\n\n\nIDE, e.g., Eclipse, editor, etc.\n\n\nAdditional build tools (make, etc.)\n\n\nDocumentation API generator such as Doxygen, MkDocs\n\n\nRevision control tools (Git)\n\n\n\n\nWindows\n\n\nDescribe installation of gfortran, Eclipse photran, Doxygen, etc.\n\n\nLinux\n\n\nDescribe, may be similar to Windows.\n\n\nCygwin\n\n\nDescribe,\n\n\nGitHub Repository\n\n\nProvide URL to GitHub repository.", 
             "title": "Configure Development Environment"
-        },
+        }, 
         {
-            "location": "/configure-dev-env/#configure-development-environment",
-            "text": "StateMod development is assumed to occur on Windows, Linux, or Cygwin (can add Mac if have hardware to test).\nThe Fortran code and build environment have in recent years been tested on different operating systems.\nThe primary target operting system is Windows because State of Colorado staff and many consultants use Windows.\nHowever, Linux and Cygwin are supported for users that use those platforms.  The following sections describe setup of the development environment for different operating systems.\nNeed to include:   Compiler, 32-bit, 64-bit discussion  IDE, e.g., Eclipse, editor, etc.  Additional build tools (make, etc.)  Documentation API generator such as Doxygen, MkDocs  Revision control tools (Git)",
+            "location": "/configure-dev-env/#configure-development-environment", 
+            "text": "StateMod development is assumed to occur on Windows, Linux, or Cygwin (can add Mac if have hardware to test).\nThe Fortran code and build environment have in recent years been tested on different operating systems.\nThe primary target operting system is Windows because State of Colorado staff and many consultants use Windows.\nHowever, Linux and Cygwin are supported for users that use those platforms.  The following sections describe setup of the development environment for different operating systems.\nNeed to include:   Compiler, 32-bit, 64-bit discussion  IDE, e.g., Eclipse, editor, etc.  Additional build tools (make, etc.)  Documentation API generator such as Doxygen, MkDocs  Revision control tools (Git)", 
             "title": "Configure Development Environment"
-        },
+        }, 
         {
-            "location": "/configure-dev-env/#windows",
-            "text": "Describe installation of gfortran, Eclipse photran, Doxygen, etc.",
+            "location": "/configure-dev-env/#windows", 
+            "text": "Describe installation of gfortran, Eclipse photran, Doxygen, etc.", 
             "title": "Windows"
-        },
+        }, 
         {
-            "location": "/configure-dev-env/#linux",
-            "text": "Describe, may be similar to Windows.",
+            "location": "/configure-dev-env/#linux", 
+            "text": "Describe, may be similar to Windows.", 
             "title": "Linux"
-        },
+        }, 
         {
-            "location": "/configure-dev-env/#cygwin",
-            "text": "Describe,",
+            "location": "/configure-dev-env/#cygwin", 
+            "text": "Describe,", 
             "title": "Cygwin"
-        },
+        }, 
         {
-            "location": "/configure-dev-env/#github-repository",
-            "text": "Provide URL to GitHub repository.",
+            "location": "/configure-dev-env/#github-repository", 
+            "text": "Provide URL to GitHub repository.", 
             "title": "GitHub Repository"
-        },
+        }, 
         {
-            "location": "/code-overview/",
-            "text": "Code Overview\n\n\nThe StateMod Fortran code is divided into separate files with .for extension.\nEach subroutine is in a separate file and the name of the file matches the subroutine (is this globally true?).\n\n\nNeed to describe code modules at a high level:\n\n\n\n\nMain entry point\n\n\nInput\n\n\nInitialization\n\n\nCalculations\n\n\nOutput\n\n\nClean-up\n\n\n\n\nFortran Conventions\n\n\nStateMod has been in existence for many years and the code as evolved through different versions of the Fortran language.\nThe following is a summary of current conventions:\n\n\n\n\nGenerally adheres to Fortran 77/?? conventions - does not utilize newer Fortran ?? features (need to explain).\n\n\nList naming conventions\n\n\nOther conventions\n\n\n\n\nData Passing\n\n\nAs per typical Fortran conventions, some data values are passed to subroutines and functions via parameters\nand other data are shared between subroutines via common blocks.\n\n\nNeed to list common blocks and explain purpose.\n\n\nNeed to explain global/static data, dimensions, etc.",
+            "location": "/code-overview/", 
+            "text": "Code Overview\n\n\nThe StateMod Fortran code is divided into separate files with .for extension.\nEach subroutine is in a separate file and the name of the file matches the subroutine (is this globally true?).\n\n\nNeed to describe code modules at a high level:\n\n\n\n\nMain entry point (see: \nstatem.for\n main program documentation\n)\n\n\nInput\n\n\nInitialization\n\n\nCalculations\n\n\nOutput\n\n\nClean-up\n\n\n\n\nStateMod Code API\n\n\nThe StateMod code has been processed with Doxygen software to produce HTML documentation.\nAdditional code formatting will occur to enable more complete documentation.\n\n\n\n\nStateMod 16.00.00 code documentation\n\n\n\n\nFortran Conventions\n\n\nStateMod has been in existence for many years and the code as evolved through different versions of the Fortran language.\nThe following is a summary of current conventions:\n\n\n\n\nGenerally adheres to Fortran 77/?? conventions - does not utilize newer Fortran ?? features (need to explain).\n\n\nList naming conventions\n\n\nOther conventions\n\n\n\n\nData Passing\n\n\nAs per typical Fortran conventions, some data values are passed to subroutines and functions via parameters\nand other data are shared between subroutines via common blocks.\n\n\nNeed to list common blocks and explain purpose.\n\n\nNeed to explain global/static data, dimensions, etc.", 
             "title": "Code Overview"
-        },
+        }, 
         {
-            "location": "/code-overview/#code-overview",
-            "text": "The StateMod Fortran code is divided into separate files with .for extension.\nEach subroutine is in a separate file and the name of the file matches the subroutine (is this globally true?).  Need to describe code modules at a high level:   Main entry point  Input  Initialization  Calculations  Output  Clean-up",
+            "location": "/code-overview/#code-overview", 
+            "text": "The StateMod Fortran code is divided into separate files with .for extension.\nEach subroutine is in a separate file and the name of the file matches the subroutine (is this globally true?).  Need to describe code modules at a high level:   Main entry point (see:  statem.for  main program documentation )  Input  Initialization  Calculations  Output  Clean-up", 
             "title": "Code Overview"
-        },
+        }, 
         {
-            "location": "/code-overview/#fortran-conventions",
-            "text": "StateMod has been in existence for many years and the code as evolved through different versions of the Fortran language.\nThe following is a summary of current conventions:   Generally adheres to Fortran 77/?? conventions - does not utilize newer Fortran ?? features (need to explain).  List naming conventions  Other conventions",
+            "location": "/code-overview/#statemod-code-api", 
+            "text": "The StateMod code has been processed with Doxygen software to produce HTML documentation.\nAdditional code formatting will occur to enable more complete documentation.   StateMod 16.00.00 code documentation", 
+            "title": "StateMod Code API"
+        }, 
+        {
+            "location": "/code-overview/#fortran-conventions", 
+            "text": "StateMod has been in existence for many years and the code as evolved through different versions of the Fortran language.\nThe following is a summary of current conventions:   Generally adheres to Fortran 77/?? conventions - does not utilize newer Fortran ?? features (need to explain).  List naming conventions  Other conventions", 
             "title": "Fortran Conventions"
-        },
+        }, 
         {
-            "location": "/code-overview/#data-passing",
-            "text": "As per typical Fortran conventions, some data values are passed to subroutines and functions via parameters\nand other data are shared between subroutines via common blocks.  Need to list common blocks and explain purpose.  Need to explain global/static data, dimensions, etc.",
+            "location": "/code-overview/#data-passing", 
+            "text": "As per typical Fortran conventions, some data values are passed to subroutines and functions via parameters\nand other data are shared between subroutines via common blocks.  Need to list common blocks and explain purpose.  Need to explain global/static data, dimensions, etc.", 
             "title": "Data Passing"
-        },
+        }, 
         {
-            "location": "/model-input/",
-            "text": "Model Input\n\n\nA knowledge of model input files is necessary to properly define tests for StateMod functionality.\nStateMod input files are specified to StateMod using a \"response file\", which is a list of all the input files.\n\n\nConventions have been established for naming convention and location (need reference).\n\n\nNeed to fill this out relevant to software development and testing.\n\n\nNeed to decide how to utilize legacy documentation.\n\n\nFixed Format and Free Format Input\n\n\nNeed to explain conventions and status.  What is status of free-format input?",
+            "location": "/model-input/", 
+            "text": "Model Input\n\n\nA knowledge of model input files is necessary to properly define tests for StateMod functionality.\nStateMod input files are specified to StateMod using a \"response file\", which is a list of all the input files.\n\n\nConventions have been established for naming convention and location (need reference).\n\n\nNeed to fill this out relevant to software development and testing.\n\n\nNeed to decide how to utilize legacy documentation.\n\n\nFixed Format and Free Format Input\n\n\nNeed to explain conventions and status.  What is status of free-format input?", 
             "title": "Model Input"
-        },
+        }, 
         {
-            "location": "/model-input/#model-input",
-            "text": "A knowledge of model input files is necessary to properly define tests for StateMod functionality.\nStateMod input files are specified to StateMod using a \"response file\", which is a list of all the input files.  Conventions have been established for naming convention and location (need reference).  Need to fill this out relevant to software development and testing.  Need to decide how to utilize legacy documentation.",
+            "location": "/model-input/#model-input", 
+            "text": "A knowledge of model input files is necessary to properly define tests for StateMod functionality.\nStateMod input files are specified to StateMod using a \"response file\", which is a list of all the input files.  Conventions have been established for naming convention and location (need reference).  Need to fill this out relevant to software development and testing.  Need to decide how to utilize legacy documentation.", 
             "title": "Model Input"
-        },
+        }, 
         {
-            "location": "/model-input/#fixed-format-and-free-format-input",
-            "text": "Need to explain conventions and status.  What is status of free-format input?",
+            "location": "/model-input/#fixed-format-and-free-format-input", 
+            "text": "Need to explain conventions and status.  What is status of free-format input?", 
             "title": "Fixed Format and Free Format Input"
-        },
+        }, 
         {
-            "location": "/model-output/",
-            "text": "Model Output\n\n\nA knowledge of model output files is necessary to properly define tests for StateMod functionality.\nStateMod output files are created in two formats:\n\n\n\n\n\n\nBinary file format written to Fortran direct access files with names *.bNN matching Fortran unit numbers.\nThese files are used to allow StateMod to efficiently read and write data as an extension of computer memory.\n\n\n\n\n\n\nText report files written at the end of a run to facilitate reading output.\n\n\n\n\n\n\nIn both cases, these files can be very large and other software may be necessary to extract and view specific data.\nFor example, see the TSTool software.\n\n\nNeed to fill this out relevant to software development and testing.\n\n\nFixed Format and Free Format Output\n\n\nNeed to discuss fixed format vs. free format.",
+            "location": "/model-output/", 
+            "text": "Model Output\n\n\nA knowledge of model output files is necessary to properly define tests for StateMod functionality.\nStateMod output files are created in two formats:\n\n\n\n\n\n\nBinary file format written to Fortran direct access files with names *.bNN matching Fortran unit numbers.\nThese files are used to allow StateMod to efficiently read and write data as an extension of computer memory.\n\n\n\n\n\n\nText report files written at the end of a run to facilitate reading output.\n\n\n\n\n\n\nIn both cases, these files can be very large and other software may be necessary to extract and view specific data.\nFor example, see the TSTool software.\n\n\nNeed to fill this out relevant to software development and testing.\n\n\nFixed Format and Free Format Output\n\n\nNeed to discuss fixed format vs. free format.", 
             "title": "Model Output"
-        },
+        }, 
         {
-            "location": "/model-output/#model-output",
-            "text": "A knowledge of model output files is necessary to properly define tests for StateMod functionality.\nStateMod output files are created in two formats:    Binary file format written to Fortran direct access files with names *.bNN matching Fortran unit numbers.\nThese files are used to allow StateMod to efficiently read and write data as an extension of computer memory.    Text report files written at the end of a run to facilitate reading output.    In both cases, these files can be very large and other software may be necessary to extract and view specific data.\nFor example, see the TSTool software.  Need to fill this out relevant to software development and testing.",
+            "location": "/model-output/#model-output", 
+            "text": "A knowledge of model output files is necessary to properly define tests for StateMod functionality.\nStateMod output files are created in two formats:    Binary file format written to Fortran direct access files with names *.bNN matching Fortran unit numbers.\nThese files are used to allow StateMod to efficiently read and write data as an extension of computer memory.    Text report files written at the end of a run to facilitate reading output.    In both cases, these files can be very large and other software may be necessary to extract and view specific data.\nFor example, see the TSTool software.  Need to fill this out relevant to software development and testing.", 
             "title": "Model Output"
-        },
+        }, 
         {
-            "location": "/model-output/#fixed-format-and-free-format-output",
-            "text": "Need to discuss fixed format vs. free format.",
+            "location": "/model-output/#fixed-format-and-free-format-output", 
+            "text": "Need to discuss fixed format vs. free format.", 
             "title": "Fixed Format and Free Format Output"
-        },
+        }, 
         {
-            "location": "/running-statemod/",
-            "text": "Running StateMod\n\n\nStateMod is a command line program.\nThe StateMod GUI can be used as a graphical interface; however, the GUI is not typically used extensively during StateMod development/testing.\n\n\nThe StateMod program provides functionality to perform several main tasks, as controlled by command line parameters:\n\n\n\n\n-baseflow - generate natural flow time series by removing regulated system impacts\n\n\n-baseflowx - \n\n\n-check - check the model input without making a run\n\n\n-conditions\n\n\n-contact\n\n\n-help\n\n\n-report\n\n\n-simulate - perform a full simulation\n\n\n-simulatex - perform a full simulation\n\n\n-test\n\n\n-update - perform a full simulation\n\n\n-version\n\n\n-warranty - need to replace with open source license language\n\n\n\n\nNeed to fill this out and explain what is normally done during development and testing.",
+            "location": "/running-statemod/", 
+            "text": "Running StateMod\n\n\nStateMod is a command line program.\nThe StateMod GUI can be used as a graphical interface; however, the GUI is not typically used extensively during StateMod development/testing.\n\n\nThe StateMod program provides functionality to perform several main tasks, as controlled by command line parameters:\n\n\n\n\n-baseflow - generate natural flow time series by removing regulated system impacts\n\n\n-baseflowx - \n\n\n-check - check the model input without making a run\n\n\n-conditions\n\n\n-contact\n\n\n-help\n\n\n-report\n\n\n-simulate - perform a full simulation\n\n\n-simulatex - perform a full simulation\n\n\n-test\n\n\n-update - perform a full simulation\n\n\n-version\n\n\n-warranty - need to replace with open source license language\n\n\n\n\nNeed to fill this out and explain what is normally done during development and testing.", 
             "title": "Running StateMod"
-        },
+        }, 
         {
-            "location": "/running-statemod/#running-statemod",
-            "text": "StateMod is a command line program.\nThe StateMod GUI can be used as a graphical interface; however, the GUI is not typically used extensively during StateMod development/testing.  The StateMod program provides functionality to perform several main tasks, as controlled by command line parameters:   -baseflow - generate natural flow time series by removing regulated system impacts  -baseflowx -   -check - check the model input without making a run  -conditions  -contact  -help  -report  -simulate - perform a full simulation  -simulatex - perform a full simulation  -test  -update - perform a full simulation  -version  -warranty - need to replace with open source license language   Need to fill this out and explain what is normally done during development and testing.",
+            "location": "/running-statemod/#running-statemod", 
+            "text": "StateMod is a command line program.\nThe StateMod GUI can be used as a graphical interface; however, the GUI is not typically used extensively during StateMod development/testing.  The StateMod program provides functionality to perform several main tasks, as controlled by command line parameters:   -baseflow - generate natural flow time series by removing regulated system impacts  -baseflowx -   -check - check the model input without making a run  -conditions  -contact  -help  -report  -simulate - perform a full simulation  -simulatex - perform a full simulation  -test  -update - perform a full simulation  -version  -warranty - need to replace with open source license language   Need to fill this out and explain what is normally done during development and testing.", 
             "title": "Running StateMod"
-        },
+        }, 
         {
-            "location": "/statemod-utilities/",
-            "text": "StateMod Utilities\n\n\nA number of utility programs have been written to perform pre- and post-processing.\nThese programs may be useful during development and testing.\n\n\nThese programs need to be discussed and evaluate whether some StateMod code should be in a library/repository and shared with utility programs and StateCU\n\n\nsmdiff\n\n\nThe \nsmdiff\n program...\n\n\nsmlink\n\n\nThe \nsmlink\n program does...\n\n\nList useful utilities",
+            "location": "/statemod-utilities/", 
+            "text": "StateMod Utilities\n\n\nA number of utility programs have been written to perform pre- and post-processing.\nThese programs may be useful during development and testing.\n\n\nThese programs need to be discussed and evaluate whether some StateMod code should be in a library/repository and shared with utility programs and StateCU\n\n\nsmdiff\n\n\nThe \nsmdiff\n program...\n\n\nsmlink\n\n\nThe \nsmlink\n program does...\n\n\nList useful utilities", 
             "title": "StateMod Utilities"
-        },
+        }, 
         {
-            "location": "/statemod-utilities/#statemod-utilities",
-            "text": "A number of utility programs have been written to perform pre- and post-processing.\nThese programs may be useful during development and testing.  These programs need to be discussed and evaluate whether some StateMod code should be in a library/repository and shared with utility programs and StateCU",
+            "location": "/statemod-utilities/#statemod-utilities", 
+            "text": "A number of utility programs have been written to perform pre- and post-processing.\nThese programs may be useful during development and testing.  These programs need to be discussed and evaluate whether some StateMod code should be in a library/repository and shared with utility programs and StateCU", 
             "title": "StateMod Utilities"
-        },
+        }, 
         {
-            "location": "/statemod-utilities/#smdiff",
-            "text": "The  smdiff  program...",
+            "location": "/statemod-utilities/#smdiff", 
+            "text": "The  smdiff  program...", 
             "title": "smdiff"
-        },
+        }, 
         {
-            "location": "/statemod-utilities/#smlink",
-            "text": "The  smlink  program does...",
+            "location": "/statemod-utilities/#smlink", 
+            "text": "The  smlink  program does...", 
             "title": "smlink"
-        },
+        }, 
         {
-            "location": "/statemod-utilities/#list-useful-utilities",
-            "text": "",
+            "location": "/statemod-utilities/#list-useful-utilities", 
+            "text": "", 
             "title": "List useful utilities"
-        },
+        }, 
         {
-            "location": "/error-handling-logging/",
-            "text": "Error Handling and Logging\n\n\nStateMod, as a Fortran program, does not have extensive error-handling from language perspective.\nHowever, due to its complexity, many lines of code are devoted to checking input for calculations and handling appropriately.\nLogging output is to standard output and a log file.\n\n\nThe following sections discuss specific topics relevant to error handling and logging.\n\n\nError Handling for READ and WRITE Statements\n\n\nThe code does utilize the \nERR=linenumber\n feature of READ and WRITE statements. \nThis allows an error to trigger jumping to a line in the code, which can output an error message and take other actions.\n\n\nDoes not seem to use IOSTAT?\n\n\nError Handling in Code\n\n\nNeed to discuss here how that is typically done, such as return status from functions, error counters in subroutines, etc.\n\n\nRun in Check Mode\n\n\nDiscuss running in check mode to detect input errors.\n\n\nLogging\n\n\nStateMod will create a log file containing information about progress and errors.\nNeed to discuss in detail.  How can this be controlled with command parameters?\nThe following are resources that might be useful to consider going forward:\n\n\n\n\nm_logger, etc.\n - See \"Reporting\" libraries\n\n\nXERROR\n - existing logging library\n\n\nSLF4J Java Logging\n - might be able to implement in some parallel form",
+            "location": "/error-handling-logging/", 
+            "text": "Error Handling and Logging\n\n\nStateMod, as a Fortran program, does not have extensive error-handling from language perspective.\nHowever, due to its complexity, many lines of code are devoted to checking input for calculations and handling appropriately.\nLogging output is to standard output and a log file.\n\n\nThe following sections discuss specific topics relevant to error handling and logging.\n\n\nError Handling for READ and WRITE Statements\n\n\nThe code does utilize the \nERR=linenumber\n feature of READ and WRITE statements. \nThis allows an error to trigger jumping to a line in the code, which can output an error message and take other actions.\n\n\nDoes not seem to use IOSTAT?\n\n\nError Handling in Code\n\n\nNeed to discuss here how that is typically done, such as return status from functions, error counters in subroutines, etc.\n\n\nRun in Check Mode\n\n\nDiscuss running in check mode to detect input errors.\n\n\nLogging\n\n\nStateMod will create a log file containing information about progress and errors.\nNeed to discuss in detail.  How can this be controlled with command parameters?\nThe following are resources that might be useful to consider going forward:\n\n\n\n\nm_logger, etc.\n - See \"Reporting\" libraries\n\n\nXERROR\n - existing logging library\n\n\nSLF4J Java Logging\n - might be able to implement in some parallel form", 
             "title": "Error Handling and Logging"
-        },
+        }, 
         {
-            "location": "/error-handling-logging/#error-handling-and-logging",
-            "text": "StateMod, as a Fortran program, does not have extensive error-handling from language perspective.\nHowever, due to its complexity, many lines of code are devoted to checking input for calculations and handling appropriately.\nLogging output is to standard output and a log file.  The following sections discuss specific topics relevant to error handling and logging.",
+            "location": "/error-handling-logging/#error-handling-and-logging", 
+            "text": "StateMod, as a Fortran program, does not have extensive error-handling from language perspective.\nHowever, due to its complexity, many lines of code are devoted to checking input for calculations and handling appropriately.\nLogging output is to standard output and a log file.  The following sections discuss specific topics relevant to error handling and logging.", 
             "title": "Error Handling and Logging"
-        },
+        }, 
         {
-            "location": "/error-handling-logging/#error-handling-for-read-and-write-statements",
-            "text": "The code does utilize the  ERR=linenumber  feature of READ and WRITE statements. \nThis allows an error to trigger jumping to a line in the code, which can output an error message and take other actions.  Does not seem to use IOSTAT?",
+            "location": "/error-handling-logging/#error-handling-for-read-and-write-statements", 
+            "text": "The code does utilize the  ERR=linenumber  feature of READ and WRITE statements. \nThis allows an error to trigger jumping to a line in the code, which can output an error message and take other actions.  Does not seem to use IOSTAT?", 
             "title": "Error Handling for READ and WRITE Statements"
-        },
+        }, 
         {
-            "location": "/error-handling-logging/#error-handling-in-code",
-            "text": "Need to discuss here how that is typically done, such as return status from functions, error counters in subroutines, etc.",
+            "location": "/error-handling-logging/#error-handling-in-code", 
+            "text": "Need to discuss here how that is typically done, such as return status from functions, error counters in subroutines, etc.", 
             "title": "Error Handling in Code"
-        },
+        }, 
         {
-            "location": "/error-handling-logging/#run-in-check-mode",
-            "text": "Discuss running in check mode to detect input errors.",
+            "location": "/error-handling-logging/#run-in-check-mode", 
+            "text": "Discuss running in check mode to detect input errors.", 
             "title": "Run in Check Mode"
-        },
+        }, 
         {
-            "location": "/error-handling-logging/#logging",
-            "text": "StateMod will create a log file containing information about progress and errors.\nNeed to discuss in detail.  How can this be controlled with command parameters?\nThe following are resources that might be useful to consider going forward:   m_logger, etc.  - See \"Reporting\" libraries  XERROR  - existing logging library  SLF4J Java Logging  - might be able to implement in some parallel form",
+            "location": "/error-handling-logging/#logging", 
+            "text": "StateMod will create a log file containing information about progress and errors.\nNeed to discuss in detail.  How can this be controlled with command parameters?\nThe following are resources that might be useful to consider going forward:   m_logger, etc.  - See \"Reporting\" libraries  XERROR  - existing logging library  SLF4J Java Logging  - might be able to implement in some parallel form", 
             "title": "Logging"
-        },
+        }, 
         {
-            "location": "/revision-control/",
-            "text": "Revision Control\n\n\nRevision control using Git/Github is used to track changes to the software.\nRevision control provides many benefits, in particular when working with multiple software developers.\n\n\nStateMod code is maintained in GitHub (add URL when finalized).\n\n\nAny developer that actively edits StateMod code must adhere to revision control protocols.\n\n\nGit Resources\n\n\nAdd some resources here for training, reference, etc.\n\n\nRevision Control Protocols\n\n\nDescribe workflow protocols, branching, merging, testing, etc.",
+            "location": "/revision-control/", 
+            "text": "Revision Control\n\n\nRevision control using Git/Github is used to track changes to the software.\nRevision control provides many benefits, in particular when working with multiple software developers.\n\n\nStateMod code is maintained in GitHub (add URL when finalized).\n\n\nAny developer that actively edits StateMod code must adhere to revision control protocols.\n\n\nGit Resources\n\n\nAdd some resources here for training, reference, etc.\n\n\nRevision Control Protocols\n\n\nDescribe workflow protocols, branching, merging, testing, etc.", 
             "title": "Revision Control"
-        },
+        }, 
         {
-            "location": "/revision-control/#revision-control",
-            "text": "Revision control using Git/Github is used to track changes to the software.\nRevision control provides many benefits, in particular when working with multiple software developers.  StateMod code is maintained in GitHub (add URL when finalized).  Any developer that actively edits StateMod code must adhere to revision control protocols.",
+            "location": "/revision-control/#revision-control", 
+            "text": "Revision control using Git/Github is used to track changes to the software.\nRevision control provides many benefits, in particular when working with multiple software developers.  StateMod code is maintained in GitHub (add URL when finalized).  Any developer that actively edits StateMod code must adhere to revision control protocols.", 
             "title": "Revision Control"
-        },
+        }, 
         {
-            "location": "/revision-control/#git-resources",
-            "text": "Add some resources here for training, reference, etc.",
+            "location": "/revision-control/#git-resources", 
+            "text": "Add some resources here for training, reference, etc.", 
             "title": "Git Resources"
-        },
+        }, 
         {
-            "location": "/revision-control/#revision-control-protocols",
-            "text": "Describe workflow protocols, branching, merging, testing, etc.",
+            "location": "/revision-control/#revision-control-protocols", 
+            "text": "Describe workflow protocols, branching, merging, testing, etc.", 
             "title": "Revision Control Protocols"
-        },
+        }, 
         {
-            "location": "/debugging/",
-            "text": "Debugging and Troubleshooting\n\n\nDebugging StateMod involves pinpointing the cause of an error as input (user) error or software bug.\nIdeally, software messages will point out input errors.\n\n\nNeed to describe how software bugs are reported and tracked.\n\n\nEnabling Debug Output\n\n\nReference the logging section.  Need to evaluate options for increasing detail of log messages for debugging.\n\n\nGuidelines for Debugging\n\n\nNeed to add some basic steps for checks and actions.\nNeed to expand this documentation for common cases and approaches.\n\n\nUse Problems as Signal to Add Checks, Automated Tests, and Improve Documentation\n\n\nAutomating testing is implemented to ensure that the software behaves as expected.\nHowever, it is impossible to define automated tests for every situation.\nA bug or common user error is often a signal that additional input checks and automated tests need to be defined.\nThis will, over time, improve the StateMod modeler's experience and reduce the number of bug reports.\n\n\nIf appropriate, also update the documentation to better explain input and software functionality\nto help avoid errors in StateMod input.",
+            "location": "/debugging/", 
+            "text": "Debugging and Troubleshooting\n\n\nDebugging StateMod involves pinpointing the cause of an error as input (user) error or software bug.\nIdeally, software messages will point out input errors.\n\n\nNeed to describe how software bugs are reported and tracked.\n\n\nEnabling Debug Output\n\n\nReference the logging section.  Need to evaluate options for increasing detail of log messages for debugging.\n\n\nGuidelines for Debugging\n\n\nNeed to add some basic steps for checks and actions.\nNeed to expand this documentation for common cases and approaches.\n\n\nUse Problems as Signal to Add Checks, Automated Tests, and Improve Documentation\n\n\nAutomating testing is implemented to ensure that the software behaves as expected.\nHowever, it is impossible to define automated tests for every situation.\nA bug or common user error is often a signal that additional input checks and automated tests need to be defined.\nThis will, over time, improve the StateMod modeler's experience and reduce the number of bug reports.\n\n\nIf appropriate, also update the documentation to better explain input and software functionality\nto help avoid errors in StateMod input.", 
             "title": "Debugging"
-        },
+        }, 
         {
-            "location": "/debugging/#debugging-and-troubleshooting",
-            "text": "Debugging StateMod involves pinpointing the cause of an error as input (user) error or software bug.\nIdeally, software messages will point out input errors.  Need to describe how software bugs are reported and tracked.",
+            "location": "/debugging/#debugging-and-troubleshooting", 
+            "text": "Debugging StateMod involves pinpointing the cause of an error as input (user) error or software bug.\nIdeally, software messages will point out input errors.  Need to describe how software bugs are reported and tracked.", 
             "title": "Debugging and Troubleshooting"
-        },
+        }, 
         {
-            "location": "/debugging/#enabling-debug-output",
-            "text": "Reference the logging section.  Need to evaluate options for increasing detail of log messages for debugging.",
+            "location": "/debugging/#enabling-debug-output", 
+            "text": "Reference the logging section.  Need to evaluate options for increasing detail of log messages for debugging.", 
             "title": "Enabling Debug Output"
-        },
+        }, 
         {
-            "location": "/debugging/#guidelines-for-debugging",
-            "text": "Need to add some basic steps for checks and actions.\nNeed to expand this documentation for common cases and approaches.",
+            "location": "/debugging/#guidelines-for-debugging", 
+            "text": "Need to add some basic steps for checks and actions.\nNeed to expand this documentation for common cases and approaches.", 
             "title": "Guidelines for Debugging"
-        },
+        }, 
         {
-            "location": "/debugging/#use-problems-as-signal-to-add-checks-automated-tests-and-improve-documentation",
-            "text": "Automating testing is implemented to ensure that the software behaves as expected.\nHowever, it is impossible to define automated tests for every situation.\nA bug or common user error is often a signal that additional input checks and automated tests need to be defined.\nThis will, over time, improve the StateMod modeler's experience and reduce the number of bug reports.  If appropriate, also update the documentation to better explain input and software functionality\nto help avoid errors in StateMod input.",
+            "location": "/debugging/#use-problems-as-signal-to-add-checks-automated-tests-and-improve-documentation", 
+            "text": "Automating testing is implemented to ensure that the software behaves as expected.\nHowever, it is impossible to define automated tests for every situation.\nA bug or common user error is often a signal that additional input checks and automated tests need to be defined.\nThis will, over time, improve the StateMod modeler's experience and reduce the number of bug reports.  If appropriate, also update the documentation to better explain input and software functionality\nto help avoid errors in StateMod input.", 
             "title": "Use Problems as Signal to Add Checks, Automated Tests, and Improve Documentation"
-        },
+        }, 
         {
-            "location": "/testing/",
-            "text": "Testing\n\n\nTesting StateMod can be difficult due to the complexity of the code.\nSimple automated tests are useful to verify basic program functionality, such as input and output.\nHowever, testing features that model complex systems require running on larger data sets.\n\n\nEstablishing test suites will ensure that future versions, and potentially language conversion can be verified.\n\n\nAutomated testing is a balance between trying to achieve blanket coverage and recognizing that there\nwill never be enough resources to implement automated tests for every possible situation.\n\n\nUnit Testing\n\n\nUnit testing refers to running a small test to exercise a specific logicical unit of code.\nUnit tests are typically automated so that many tests can be run efficiently.\nUnit tests are implemented at code level in Fortran and are compiled against the StateMod code.\nMost modern languages rely on unit testing frameworks to support exhaustive code testing.\nThere are not a lot of frameworks available for Fortran unit testing.  The following needs to be evaluated:\n\n\n\n\nfunit\n\n\nA look at FORTRAN unit test frameworks\n\n\n\n\nFunctional Testing\n\n\nFunctional testing refers to running the program in operational mode, typically on a smaller dataset that\nisolates code that is executed.\nFunctional tests are typically automated so that many tests can be run efficiently.\nFunctional tests are run on the compiled StateMod program (tests consist of datasets, not code snippets).\nA testing framework for automated functional tests needs to be implemented, similar to TSTool test features.\nThis could be built into StateMod or could be an external program,\npossibly using TSTool with RunProgram, CompareFiles, and CompareTimeSeries commands.\n\n\nExisting example files might be suitable for functional tests but it is likely that many more tests need to be defined.\n\n\nSystem Testing\n\n\nUnit and functional testing will only go so far towards verifying that StateMod is properly functioning.\nConsequently, it is necessary to run StateMod on a larger model and do global and spot checks of output.\nWilson Water Group (WWG) is envisioned to help with StateMod testing as part of the open source project\nand will help define test datasets and procedures.\n\n\nOther Testing Considerations\n\n\nOnce a testing framework has been established, the following may also be a focus of testing:\n\n\n\n\nPerformance - verify that speed of execution is reasonable\n\n\nStress - test large datasets, even if synthetic data\n\n\nIntegration - test whether StateMod works with other components, such as StateMod GUI, utilities",
+            "location": "/testing/", 
+            "text": "Testing\n\n\nTesting StateMod can be difficult due to the complexity of the code.\nSimple automated tests are useful to verify basic program functionality, such as input and output.\nHowever, testing features that model complex systems require running on larger data sets.\n\n\nEstablishing test suites will ensure that future versions, and potentially language conversion can be verified.\n\n\nAutomated testing is a balance between trying to achieve blanket coverage and recognizing that there\nwill never be enough resources to implement automated tests for every possible situation.\n\n\nUnit Testing\n\n\nUnit testing refers to running a small test to exercise a specific logicical unit of code.\nUnit tests are typically automated so that many tests can be run efficiently.\nUnit tests are implemented at code level in Fortran and are compiled against the StateMod code.\nMost modern languages rely on unit testing frameworks to support exhaustive code testing.\nThere are not a lot of frameworks available for Fortran unit testing.  The following needs to be evaluated:\n\n\n\n\nfunit\n\n\nA look at FORTRAN unit test frameworks\n\n\n\n\nFunctional Testing\n\n\nFunctional testing refers to running the program in operational mode, typically on a smaller dataset that\nisolates code that is executed.\nFunctional tests are typically automated so that many tests can be run efficiently.\nFunctional tests are run on the compiled StateMod program (tests consist of datasets, not code snippets).\nA testing framework for automated functional tests needs to be implemented, similar to TSTool test features.\nThis could be built into StateMod or could be an external program,\npossibly using TSTool with RunProgram, CompareFiles, and CompareTimeSeries commands.\n\n\nExisting example files might be suitable for functional tests but it is likely that many more tests need to be defined.\n\n\nSystem Testing\n\n\nUnit and functional testing will only go so far towards verifying that StateMod is properly functioning.\nConsequently, it is necessary to run StateMod on a larger model and do global and spot checks of output.\nWilson Water Group (WWG) is envisioned to help with StateMod testing as part of the open source project\nand will help define test datasets and procedures.\n\n\nOther Testing Considerations\n\n\nOnce a testing framework has been established, the following may also be a focus of testing:\n\n\n\n\nPerformance - verify that speed of execution is reasonable\n\n\nStress - test large datasets, even if synthetic data\n\n\nIntegration - test whether StateMod works with other components, such as StateMod GUI, utilities", 
             "title": "Testing"
-        },
+        }, 
         {
-            "location": "/testing/#testing",
-            "text": "Testing StateMod can be difficult due to the complexity of the code.\nSimple automated tests are useful to verify basic program functionality, such as input and output.\nHowever, testing features that model complex systems require running on larger data sets.  Establishing test suites will ensure that future versions, and potentially language conversion can be verified.  Automated testing is a balance between trying to achieve blanket coverage and recognizing that there\nwill never be enough resources to implement automated tests for every possible situation.",
+            "location": "/testing/#testing", 
+            "text": "Testing StateMod can be difficult due to the complexity of the code.\nSimple automated tests are useful to verify basic program functionality, such as input and output.\nHowever, testing features that model complex systems require running on larger data sets.  Establishing test suites will ensure that future versions, and potentially language conversion can be verified.  Automated testing is a balance between trying to achieve blanket coverage and recognizing that there\nwill never be enough resources to implement automated tests for every possible situation.", 
             "title": "Testing"
-        },
+        }, 
         {
-            "location": "/testing/#unit-testing",
-            "text": "Unit testing refers to running a small test to exercise a specific logicical unit of code.\nUnit tests are typically automated so that many tests can be run efficiently.\nUnit tests are implemented at code level in Fortran and are compiled against the StateMod code.\nMost modern languages rely on unit testing frameworks to support exhaustive code testing.\nThere are not a lot of frameworks available for Fortran unit testing.  The following needs to be evaluated:   funit  A look at FORTRAN unit test frameworks",
+            "location": "/testing/#unit-testing", 
+            "text": "Unit testing refers to running a small test to exercise a specific logicical unit of code.\nUnit tests are typically automated so that many tests can be run efficiently.\nUnit tests are implemented at code level in Fortran and are compiled against the StateMod code.\nMost modern languages rely on unit testing frameworks to support exhaustive code testing.\nThere are not a lot of frameworks available for Fortran unit testing.  The following needs to be evaluated:   funit  A look at FORTRAN unit test frameworks", 
             "title": "Unit Testing"
-        },
+        }, 
         {
-            "location": "/testing/#functional-testing",
-            "text": "Functional testing refers to running the program in operational mode, typically on a smaller dataset that\nisolates code that is executed.\nFunctional tests are typically automated so that many tests can be run efficiently.\nFunctional tests are run on the compiled StateMod program (tests consist of datasets, not code snippets).\nA testing framework for automated functional tests needs to be implemented, similar to TSTool test features.\nThis could be built into StateMod or could be an external program,\npossibly using TSTool with RunProgram, CompareFiles, and CompareTimeSeries commands.  Existing example files might be suitable for functional tests but it is likely that many more tests need to be defined.",
+            "location": "/testing/#functional-testing", 
+            "text": "Functional testing refers to running the program in operational mode, typically on a smaller dataset that\nisolates code that is executed.\nFunctional tests are typically automated so that many tests can be run efficiently.\nFunctional tests are run on the compiled StateMod program (tests consist of datasets, not code snippets).\nA testing framework for automated functional tests needs to be implemented, similar to TSTool test features.\nThis could be built into StateMod or could be an external program,\npossibly using TSTool with RunProgram, CompareFiles, and CompareTimeSeries commands.  Existing example files might be suitable for functional tests but it is likely that many more tests need to be defined.", 
             "title": "Functional Testing"
-        },
+        }, 
         {
-            "location": "/testing/#system-testing",
-            "text": "Unit and functional testing will only go so far towards verifying that StateMod is properly functioning.\nConsequently, it is necessary to run StateMod on a larger model and do global and spot checks of output.\nWilson Water Group (WWG) is envisioned to help with StateMod testing as part of the open source project\nand will help define test datasets and procedures.",
+            "location": "/testing/#system-testing", 
+            "text": "Unit and functional testing will only go so far towards verifying that StateMod is properly functioning.\nConsequently, it is necessary to run StateMod on a larger model and do global and spot checks of output.\nWilson Water Group (WWG) is envisioned to help with StateMod testing as part of the open source project\nand will help define test datasets and procedures.", 
             "title": "System Testing"
-        },
+        }, 
         {
-            "location": "/testing/#other-testing-considerations",
-            "text": "Once a testing framework has been established, the following may also be a focus of testing:   Performance - verify that speed of execution is reasonable  Stress - test large datasets, even if synthetic data  Integration - test whether StateMod works with other components, such as StateMod GUI, utilities",
+            "location": "/testing/#other-testing-considerations", 
+            "text": "Once a testing framework has been established, the following may also be a focus of testing:   Performance - verify that speed of execution is reasonable  Stress - test large datasets, even if synthetic data  Integration - test whether StateMod works with other components, such as StateMod GUI, utilities", 
             "title": "Other Testing Considerations"
-        },
+        }, 
         {
-            "location": "/build-process/",
-            "text": "Build Process\n\n\nThe build process generally consists of the following:\n\n\n\n\nStart up build environment (may be same as developer environment)\n\n\nClone code from GitHub repository for master branch, assumed to be working software\n\n\nCompile software\n\n\nPackage software into installer\n\n\nInstall in test area\n\n\nRun automated and manual tests\n\n\n\n\nIf tests pass, deploy the installer to the distribution website.\n\n\nSpecific parts of the build process need to be formally implemented and documented.\n\n\nVariations on the above will occur during development, for example, building from a local repository master or other branch.",
+            "location": "/build-process/", 
+            "text": "Build Process\n\n\nThe build process generally consists of the following:\n\n\n\n\nStart up build environment (may be same as developer environment)\n\n\nClone code from GitHub repository for master branch, assumed to be working software\n\n\nCompile software\n\n\nPackage software into installer\n\n\nInstall in test area\n\n\nRun automated and manual tests\n\n\n\n\nIf tests pass, deploy the installer to the distribution website.\n\n\nSpecific parts of the build process need to be formally implemented and documented.\n\n\nVariations on the above will occur during development, for example, building from a local repository master or other branch.", 
             "title": "Build Process"
-        },
+        }, 
         {
-            "location": "/build-process/#build-process",
-            "text": "The build process generally consists of the following:   Start up build environment (may be same as developer environment)  Clone code from GitHub repository for master branch, assumed to be working software  Compile software  Package software into installer  Install in test area  Run automated and manual tests   If tests pass, deploy the installer to the distribution website.  Specific parts of the build process need to be formally implemented and documented.  Variations on the above will occur during development, for example, building from a local repository master or other branch.",
+            "location": "/build-process/#build-process", 
+            "text": "The build process generally consists of the following:   Start up build environment (may be same as developer environment)  Clone code from GitHub repository for master branch, assumed to be working software  Compile software  Package software into installer  Install in test area  Run automated and manual tests   If tests pass, deploy the installer to the distribution website.  Specific parts of the build process need to be formally implemented and documented.  Variations on the above will occur during development, for example, building from a local repository master or other branch.", 
             "title": "Build Process"
-        },
+        }, 
         {
-            "location": "/documentation/",
-            "text": "Documentation\n\n\nDocumentation for complex software like StateMod is very important.\nDocumentation memorializes the knowledge about the code, software design, and use.\nDocumentation, when created to describe planned changes, is cheaper than code changes and testing.\nFeatures without documentation effectively don't exist, and bad documentation is as bad as broken code.\n\n\nStateMod documentation is described below.\n\n\nDeveloper Manual\n\n\nYou are reading the developer manual.\nThis documentation is intended to help StateMod software developers be effective and efficient.\n\n\nThere are also artifacts written in Word/HTML that need to be evaluated.  Should they continue or merged into this documentation?\n\n\nNeed to decide if this documentation is maintained with StateMod code or separately.\n\n\nThis developer manual was created using MkDocs, following instructions on the \nMkDocs website\n.\n\n\nThe documentation has also been published to a GitHub Pages website:  \nLearn StateMod (for Software Developers)\n.\n\n\nUser Manual\n\n\nThe user manual has traditionally been maintained as Word files and saved as Word/PDF/HTML.\n\n\nNeed to decide whether to continue this or convert to something like this Developer Manual, as a website with navigation.\n\n\nCode Documentation\n\n\nThe StateMod code has extensive comments.\nHowever, they are not standardized into a format that can be used to auto-generate API documentation, for example\nusing Doxygen.\nThe code comments may need to be updated so that they are more helpful to developers.\nIt is not clear if IDEs such as Photran utilize Doxygen or other stylized code comments (for code completion hints, etc.).\nThe following are some tools that may be useful.\n\n\n\n\nDoxygen\n - converts code comments to navigable HTML documentation\n\n\n\n\nModel Dataset Documentation\n\n\nThere is significant value in model dataset documentation created during modeling projects.\nSuch documentation provides implementation examples that can be used for testing and training.",
+            "location": "/documentation/", 
+            "text": "Documentation\n\n\nDocumentation for complex software like StateMod is very important.\nDocumentation memorializes the knowledge about the code, software design, and use.\nDocumentation, when created to describe planned changes, is cheaper than code changes and testing.\nFeatures without documentation effectively don't exist, and bad documentation is as bad as broken code.\n\n\nStateMod documentation is described below.\n\n\nDeveloper Manual\n\n\nYou are reading the developer manual.\nThis documentation is intended to help StateMod software developers be effective and efficient.\n\n\nThere are also artifacts written in Word/HTML that need to be evaluated.  Should they continue or merged into this documentation?\n\n\nNeed to decide if this documentation is maintained with StateMod code or separately.\n\n\nThis developer manual was created using MkDocs, following instructions on the \nMkDocs website\n.\n\n\nThe documentation has also been published to a GitHub Pages website:  \nLearn StateMod (for Software Developers)\n.\n\n\nUser Manual\n\n\nThe user manual has traditionally been maintained as Word files and saved as Word/PDF/HTML.\n\n\nNeed to decide whether to continue this or convert to something like this Developer Manual, as a website with navigation.\n\n\nCode Documentation\n\n\nThe StateMod code has extensive comments.\nHowever, they are not standardized into a format that can be used to auto-generate API documentation, for example\nusing Doxygen.\nThe code comments may need to be updated so that they are more helpful to developers.\nIt is not clear if IDEs such as Photran utilize Doxygen or other stylized code comments (for code completion hints, etc.).\nThe following are some tools that may be useful.\n\n\n\n\nDoxygen\n - converts code comments to navigable HTML documentation\n\n\n\n\nModel Dataset Documentation\n\n\nThere is significant value in model dataset documentation created during modeling projects.\nSuch documentation provides implementation examples that can be used for testing and training.", 
             "title": "Documentation"
-        },
+        }, 
         {
-            "location": "/documentation/#documentation",
-            "text": "Documentation for complex software like StateMod is very important.\nDocumentation memorializes the knowledge about the code, software design, and use.\nDocumentation, when created to describe planned changes, is cheaper than code changes and testing.\nFeatures without documentation effectively don't exist, and bad documentation is as bad as broken code.  StateMod documentation is described below.",
+            "location": "/documentation/#documentation", 
+            "text": "Documentation for complex software like StateMod is very important.\nDocumentation memorializes the knowledge about the code, software design, and use.\nDocumentation, when created to describe planned changes, is cheaper than code changes and testing.\nFeatures without documentation effectively don't exist, and bad documentation is as bad as broken code.  StateMod documentation is described below.", 
             "title": "Documentation"
-        },
+        }, 
         {
-            "location": "/documentation/#developer-manual",
-            "text": "You are reading the developer manual.\nThis documentation is intended to help StateMod software developers be effective and efficient.  There are also artifacts written in Word/HTML that need to be evaluated.  Should they continue or merged into this documentation?  Need to decide if this documentation is maintained with StateMod code or separately.  This developer manual was created using MkDocs, following instructions on the  MkDocs website .  The documentation has also been published to a GitHub Pages website:   Learn StateMod (for Software Developers) .",
+            "location": "/documentation/#developer-manual", 
+            "text": "You are reading the developer manual.\nThis documentation is intended to help StateMod software developers be effective and efficient.  There are also artifacts written in Word/HTML that need to be evaluated.  Should they continue or merged into this documentation?  Need to decide if this documentation is maintained with StateMod code or separately.  This developer manual was created using MkDocs, following instructions on the  MkDocs website .  The documentation has also been published to a GitHub Pages website:   Learn StateMod (for Software Developers) .", 
             "title": "Developer Manual"
-        },
+        }, 
         {
-            "location": "/documentation/#user-manual",
-            "text": "The user manual has traditionally been maintained as Word files and saved as Word/PDF/HTML.  Need to decide whether to continue this or convert to something like this Developer Manual, as a website with navigation.",
+            "location": "/documentation/#user-manual", 
+            "text": "The user manual has traditionally been maintained as Word files and saved as Word/PDF/HTML.  Need to decide whether to continue this or convert to something like this Developer Manual, as a website with navigation.", 
             "title": "User Manual"
-        },
+        }, 
         {
-            "location": "/documentation/#code-documentation",
-            "text": "The StateMod code has extensive comments.\nHowever, they are not standardized into a format that can be used to auto-generate API documentation, for example\nusing Doxygen.\nThe code comments may need to be updated so that they are more helpful to developers.\nIt is not clear if IDEs such as Photran utilize Doxygen or other stylized code comments (for code completion hints, etc.).\nThe following are some tools that may be useful.   Doxygen  - converts code comments to navigable HTML documentation",
+            "location": "/documentation/#code-documentation", 
+            "text": "The StateMod code has extensive comments.\nHowever, they are not standardized into a format that can be used to auto-generate API documentation, for example\nusing Doxygen.\nThe code comments may need to be updated so that they are more helpful to developers.\nIt is not clear if IDEs such as Photran utilize Doxygen or other stylized code comments (for code completion hints, etc.).\nThe following are some tools that may be useful.   Doxygen  - converts code comments to navigable HTML documentation", 
             "title": "Code Documentation"
-        },
+        }, 
         {
-            "location": "/documentation/#model-dataset-documentation",
-            "text": "There is significant value in model dataset documentation created during modeling projects.\nSuch documentation provides implementation examples that can be used for testing and training.",
+            "location": "/documentation/#model-dataset-documentation", 
+            "text": "There is significant value in model dataset documentation created during modeling projects.\nSuch documentation provides implementation examples that can be used for testing and training.", 
             "title": "Model Dataset Documentation"
-        },
+        }, 
         {
-            "location": "/add-operating-rule/",
-            "text": "Adding an Operating Rule\n\n\nAdding (or modifying) an operating rule is one of the more common, and yet complex, tasks that \nmay be performed by a StateMod software developer.\nThis documentation explains the steps needed to add and test an operating rule.\n\n\nBackground\n\n\nAdd background here.\n\n\nStep 1 - Do What?\n\n\nDescribe Step 1.\n\n\nStep 2 - Do What?\n\n\nDescribe Step 2.\n\n\nEtc.",
+            "location": "/add-operating-rule/", 
+            "text": "Adding an Operating Rule\n\n\nAdding (or modifying) an operating rule is one of the more common, and yet complex, tasks that \nmay be performed by a StateMod software developer.\nThis documentation explains the steps needed to add and test an operating rule.\n\n\nBackground\n\n\nAdd background here.\n\n\nStep 1 - Do What?\n\n\nDescribe Step 1.\n\n\nStep 2 - Do What?\n\n\nDescribe Step 2.\n\n\nEtc.", 
             "title": "Adding an Operating Rule"
-        },
+        }, 
         {
-            "location": "/add-operating-rule/#adding-an-operating-rule",
-            "text": "Adding (or modifying) an operating rule is one of the more common, and yet complex, tasks that \nmay be performed by a StateMod software developer.\nThis documentation explains the steps needed to add and test an operating rule.",
+            "location": "/add-operating-rule/#adding-an-operating-rule", 
+            "text": "Adding (or modifying) an operating rule is one of the more common, and yet complex, tasks that \nmay be performed by a StateMod software developer.\nThis documentation explains the steps needed to add and test an operating rule.", 
             "title": "Adding an Operating Rule"
-        },
+        }, 
         {
-            "location": "/add-operating-rule/#background",
-            "text": "Add background here.",
+            "location": "/add-operating-rule/#background", 
+            "text": "Add background here.", 
             "title": "Background"
-        },
+        }, 
         {
-            "location": "/add-operating-rule/#step-1-do-what",
-            "text": "Describe Step 1.",
+            "location": "/add-operating-rule/#step-1-do-what", 
+            "text": "Describe Step 1.", 
             "title": "Step 1 - Do What?"
-        },
+        }, 
         {
-            "location": "/add-operating-rule/#step-2-do-what",
-            "text": "Describe Step 2.",
+            "location": "/add-operating-rule/#step-2-do-what", 
+            "text": "Describe Step 2.", 
             "title": "Step 2 - Do What?"
-        },
+        }, 
         {
-            "location": "/add-operating-rule/#etc",
-            "text": "",
+            "location": "/add-operating-rule/#etc", 
+            "text": "", 
             "title": "Etc."
         }
     ]
