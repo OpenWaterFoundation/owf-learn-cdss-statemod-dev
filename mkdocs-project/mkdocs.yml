@@ -2,7 +2,7 @@
 # Use hash-comments to comment out pages have not been written
 # Reference: http://www.mkdocs.org/user-guide/configuration/
 #
-site_name: Learn StateMod (for Software Developers)
+site_name: 'Learn StateMod (for Software Developers)'
 pages:
 - Home: index.md
 - Introduction and Protocols:  introduction.md
@@ -20,13 +20,16 @@ pages:
 - Build Process:  build-process.md
 - Documentation:  documentation.md
 - Adding an Operating Rule:  add-operating-rule.md
-theme: readthedocs
+# ------- configuration properties ---------------
+# Use Material theme
+# - installation notes:  https://github.com/squidfunk/mkdocs-material
+theme: material
+#theme: readthedocs
 repo_url:  https://github.com/OpenWaterFoundation/owf-learn-cdss-statemod-dev
-site_description:  Colorado's Decision Support Systems StateMod model developer documentation
-site_author:  Open Water Foundation
-site_favicon:  StateMod-favicon.png
-#copyright:  Copyright Open Water Foundation
-#extra_css:
-#- css/extra.css
-# Defaults to all JavaScript in the docs folder
-# extra_javascript:
+site_description:  'CDSS StateMod model developer documentation'
+site_author:  'Open Water Foundation'
+site_favicon:  'images/StateMod-favicon.png'
+#copyright:  'Copyright Open Water Foundation'
+extra:
+  # Use extra CSS to customize styles, based on theme
+  extra_css: 'css/extra-material-theme.css'

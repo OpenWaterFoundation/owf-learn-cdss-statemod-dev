@@ -4,10 +4,22 @@
 # - replace all the files on the web with local files
 # - location is learn.openwaterfoundation.org/owf-learn-cdss-statemod-dev
 
+echo "Shell script current does not work.  Use *.bat version instead."
+exit 1
+
 # Set --dryrun to test before actually doing
 dryrun=""
 #dryrun="--dryrun"
 s3Folder="s3://learn.openwaterfoundation.org/owf-learn-cdss-statemod-dev"
+
+# Make sure that this is being run from the build-util folder
+pwd=`pwd`
+dirname=`basename ${pwd}`
+if [ ! ${dirname} = "build-util" ]
+        then
+        echo "Must run from build-util folder"
+        exit 1
+fi
 
 if [ "$1" == "" ]
         then
